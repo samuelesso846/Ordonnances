@@ -1,0 +1,36 @@
+
+
+html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Générez, visualisez et imprimez vos ordonnances médicales en ligne de façon sécurisée avec SantéTogoConnect.">
+  <title>Ordonnance - SantéTogoConnect</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f4f4f4; }
+    .container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; }
+    h2 { text-align: center; }
+    label { display: block; margin-top: 15px; }
+    input, textarea { width: 100%; padding: 10px; margin-top: 5px; border-radius: 5px; border: 1px solid #ccc; }
+    button { margin-top: 20px; padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Créer une Ordonnance</h2>
+    <form>
+      <label for="nom">Nom du patient</label>
+      <input type="text" id="nom" name="nom" required>
+[03/01 à 09:23] +1 800-242-8478: <label for="medicaments">Médicaments</label>
+      <textarea id="medicaments" name="medicaments" rows="5" placeholder="Paracétamol 500mg, 2x/jour pendant 5 jours"></textarea>
+
+      <label for="medecin">Nom du médecin</label>
+      <input type="text" id="medecin" name="medecin" required>
+
+      <button type="submit">Générer l'ordonnance</button>
+    </form>
+  </div>
+</body>
+</html>
